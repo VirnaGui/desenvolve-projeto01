@@ -1,0 +1,86 @@
+header {
+    background: skyblue;
+    padding: 20px;
+}
+.caixa {
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
+}
+nav {
+    position: absolute;
+    top: 70px;
+    right: 0;
+}
+nav  li{
+    display: inline;
+    margin: 0 0 0 16px;
+    
+}
+nav a{
+    text-transform: uppercase;
+    color: rgb(37, 28, 54);
+    font-weight: bold;
+    font-size: 20px;
+    text-decoration: none;
+}
+nav a:hover {
+        /* cor do mouse ao clicar no link*/
+    color: deeppink;
+    text-decoration: underline;
+}
+.produtosvendas {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
+     
+}
+.produtosvendas li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    background: pink;
+    margin: 0 1.5%;
+    padding: 30px 20px;
+    box-sizing: border-box;
+     /* parte da borda dos produtos a venda*/
+     border-color: #000000;
+     border-width: 2px;
+     border-style: solid;
+     /* raio arredondado das bordas*/
+     border-radius: 10px;
+}
+.produtosvendas li:hover {
+    border-color: deeppink;
+}
+.produtosvendas li:active {
+    border-color: blueviolet;
+}
+.produtosvendas li:hover h2 {
+    font-size: 28px;
+}
+.produtosvendas h2 {
+    font-size: 24px;
+    font-weight: bold;
+   
+}
+.produto-descricao {
+    font-size: 18px;
+}
+.produto-preco {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+footer {
+    text-align: center;
+     background: skyblue;   
+     padding: 30px;
+}
+.texto-rodape {
+    font-size: 13px;
+    margin: 20px;
+}
